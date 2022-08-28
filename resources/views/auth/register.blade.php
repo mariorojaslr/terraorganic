@@ -4,7 +4,7 @@
             <x-jet-authentication-card-logo />
         </x-slot> --}}
 
-    <x-jet-validation-errors class="mb-4" />
+    
     <style>
         body {}
 
@@ -21,6 +21,7 @@
 
             <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded my-3">
             {{-- <img src="/img/png 01.png" width="200" alt=""> --}}
+                {{-- <x-jet-validation-errors class="mb-4" /> --}}
             </div>
             <div class="col bg-white p-5 rounded" style="opacity: 88%; margin-top: 10px; margin-bottom: 10px">
                 <div class="flex" style="margin: auto; justify-content: center;">
@@ -87,6 +88,9 @@
                         </a> --}}
                         <div class="d-grid mt-4">
                             <button type="submit" class="btn-primary rounded-md p-2">Registrarse</button>
+                        </div>
+                        <div class="d-grid mt-4">
+                            <x-jet-validation-errors class="mb-4" />
                         </div>
                         {{-- <x-jet-button class="ml-4">
                             {{ __('Register') }}

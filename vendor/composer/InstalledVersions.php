@@ -27,16 +27,25 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '2f36c21c0abf30eb5654f6eb842627008231c8d8',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'amendozaaguiar/laraveles-spanish-for-jetstream' => 
+    array (
+      'pretty_version' => '1.6.0',
+      'version' => '1.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7e7bed069a6f0868aa0995b36e4f7427ffc96ef9',
+    ),
     'asm89/stack-cors' => 
     array (
       'pretty_version' => 'v2.1.1',
@@ -511,12 +520,12 @@ private static $installed = array (
     ),
     'laravel/laravel' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '2f36c21c0abf30eb5654f6eb842627008231c8d8',
     ),
     'laravel/sail' => 
     array (

@@ -20,9 +20,14 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->rememberToken();
-            $table->foreignId('current_team_id')->nullable();
-            $table->string('profile_photo_path', 2048)->nullable();
             $table->timestamps();
+            // $table->foreignId('current_team_id')->nullable();
+            $table->string('profile_photo_path', 2048)->nullable();
+            $table->unsignedBigInteger('tipouser_id')->nullable();
+            $table->unsignedBigInteger('empresa_id')->nullable();
+
+            $table->foreign('tipouser_id')->references('id')->on('tiposusers');
+            $table->foreign('empresa_id')->references('id')->on('empresas');
         });
     }
 

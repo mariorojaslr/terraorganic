@@ -19,11 +19,12 @@
             
             <div class="col d-none d-lg-block col-md-5 col-lg-5 col-xl-6 rounded my-3">
                 {{-- <img src="/img/png 01.png" width="200" alt=""> --}}
+                {{-- <x-jet-validation-errors class="mb-4" /> --}}
             </div>
             {{-- <div class="col bg  d-lg-block col-md-5 col-lg-5 col-xl-6 rounded my-3" style="background-image: url(img/png\ 01.png)">
                 cansao
             </div> --}}
-            <x-jet-validation-errors class="mb-4" />
+            
 
             @if (session('status'))
                 <div class="mb-4 font-medium text-sm text-green-600">
@@ -68,6 +69,9 @@
                         @if (Route::has('password.request'))
                             <a href="{{ route('password.request') }}"> Recuperar Contraseña</a>
                         @endif
+                    </div>
+                    <div class="d-grid mt-4">
+                        <x-jet-validation-errors class="mb-4" />
                     </div>
 {{--                    <x-jet-button class="ml-4">
                             {{ __('Log in') }}
