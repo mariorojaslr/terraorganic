@@ -3,6 +3,8 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
 
 class TiposuserSeeder extends Seeder
 {
@@ -13,6 +15,8 @@ class TiposuserSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('tiposusers')->insert(['descripcion' => 'Dueño ']);
+        DB::table('tiposusers')->insert(['descripcion' => 'Usuario Común']);
+        DB::table('tiposusers')->insert(['descripcion' => 'Visitante']);
     }
 }

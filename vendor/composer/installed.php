@@ -6,11 +6,20 @@
     'aliases' => 
     array (
     ),
-    'reference' => '2f36c21c0abf30eb5654f6eb842627008231c8d8',
+    'reference' => '93c5aa934495575731b50bfc2af3b72dd44393d8',
     'name' => 'laravel/laravel',
   ),
   'versions' => 
   array (
+    'almasaeed2010/adminlte' => 
+    array (
+      'pretty_version' => 'v3.2.0',
+      'version' => '3.2.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'bd4d9c72931f1dd28601b6bfb387554a381ad540',
+    ),
     'amendozaaguiar/laraveles-spanish-for-jetstream' => 
     array (
       'pretty_version' => '1.6.0',
@@ -458,6 +467,15 @@
       ),
       'reference' => 'daa11c43729510b3700bc34d414664966b03bffe',
     ),
+    'jeroennoten/laravel-adminlte' => 
+    array (
+      'pretty_version' => 'v3.8.4',
+      'version' => '3.8.4.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'f06dfd13a16b7449e89fb12a768184edd5db9bbc',
+    ),
     'kodova/hamcrest-php' => 
     array (
       'replaced' => 
@@ -499,7 +517,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => '2f36c21c0abf30eb5654f6eb842627008231c8d8',
+      'reference' => '93c5aa934495575731b50bfc2af3b72dd44393d8',
     ),
     'laravel/sail' => 
     array (
