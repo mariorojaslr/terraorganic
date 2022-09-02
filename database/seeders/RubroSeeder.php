@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class RubroSeeder extends Seeder
 {
@@ -13,6 +14,6 @@ class RubroSeeder extends Seeder
      */
     public function run()
     {
-        //
+        DB::table('rubros')->insert(['rubrodescripcion' => 'General']);
     }
 }

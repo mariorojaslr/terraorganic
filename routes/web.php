@@ -25,4 +25,10 @@ Route::middleware([
     Route::get('/dashboard', function () {
         return view('dashboard');
     })->name('dashboard');
+    Route::get('/socios', function () { return view('socios/principalsocio'); });
+    // Route::get('/socios/videos', function () { return view('socios/videos/index'); });
+    Route::resource('socios','App\Http\Controllers\SociosVideoController');
+    Route::resource('rubros','App\Http\Controllers\RubrosController');
+    Route::resource('ivas','App\Http\Controllers\IvasController');
+    Route::resource('usuarios','App\Http\Controllers\UsuariosController');
 });

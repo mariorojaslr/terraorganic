@@ -417,7 +417,7 @@
     {{-- @if (!Route::has('login'))
         @livewire('navigation-menu')
     @endif --}}
-    <div class="items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
+    <div class="items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0">
 
         <nav class="navbar navbar-expand-lg navbar-light db-lighit" style="background-color: #c8eea0;">
             <div class="container-fluid">
@@ -467,7 +467,7 @@
                             <li class="nav-item">
                                 {{-- <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block"> --}}
                                     @auth
-                                        <a href="{{ url('/dashboard') }}" class="nav-link active">Dashboard</a>
+                                        <a href="{{ url('/socios') }}" class="nav-link active">Dashboard</a>
                                     @else
                                         <a href="{{ route('login') }}" class="nav-link active">Ingresar</a>
 
@@ -512,43 +512,43 @@
                 <div class="carousel-item active">
                     <img src="{{ asset('img/banner01.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="text-align: center">Primera Banner </h5>
-                        <p style="text-align: center">Texto de la Primera Banner la idea es apliar la infotmacion</p>
+                        <h5>First slide label</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner02.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="text-align: center">Second slide label</h5>
-                        <p style="text-align: center">Some representative placeholder content for the second slide.</p>
+                        <h5>Second slide label</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner03.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="text-align: center">Third slide label</h5>
-                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner04.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="text-align: center">Third slide label</h5>
-                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner05.jpg') }} " class="d-block w-100" style="height: 250px;"alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="text-align: center">Third slide label</h5>
-                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner06.jpg') }} " class="d-block w-100" style="height: 250px;"alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5 style="text-align: center">Third slide label</h5>
-                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
+                        <h5>Third slide label</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
             </div>

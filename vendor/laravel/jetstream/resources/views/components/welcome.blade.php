@@ -467,7 +467,7 @@
                             <li class="nav-item">
                                 {{-- <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block"> --}}
                                     @auth
-                                        <a href="{{ url('/dashboard') }}" class="nav-link active">Dashboard</a>
+                                        <a href="{{ url('/socios') }}" class="nav-link active">Dashboard</a>
                                     @else
                                         <a href="{{ route('login') }}" class="nav-link active">Ingresar</a>
 
