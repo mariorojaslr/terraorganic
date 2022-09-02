@@ -16,6 +16,6 @@ class DatabaseSeeder extends Seeder
         // \App\Models\User::factory(10)->create();
         $this->call(RubroSeeder::class);
         $this->call(TipoivaSeeder::class);
-        $this->call(TipouserSeeder::class);
+        $this->call(TiposuserSeeder::class);
     }
 }
