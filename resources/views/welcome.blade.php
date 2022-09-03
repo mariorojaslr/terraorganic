@@ -512,43 +512,43 @@
                 <div class="carousel-item active">
                     <img src="{{ asset('img/banner01.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>First slide label</h5>
-                        <p>Some representative placeholder content for the first slide.</p>
+                        <h5 style="text-align: center">Primer Banner</h5>
+                        <p style="text-align: center">Some representative placeholder content for the first slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner02.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Second slide label</h5>
-                        <p>Some representative placeholder content for the second slide.</p>
+                        <h5 style="text-align: center">Segundo Banner</h5>
+                        <p style="text-align: center">Some representative placeholder content for the second slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner03.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 style="text-align: center">Tercer Banner</h5>
+                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner04.jpg') }} " class="d-block w-100" style="height: 250px;" alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 style="text-align: center">Cuarto Banner</h5>
+                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner05.jpg') }} " class="d-block w-100" style="height: 250px;"alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 style="text-align: center">Quinto Banner</h5>
+                        <p style="text-align: center">Some representative placeholder content for the third slide.</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="{{ asset('img/banner06.jpg') }} " class="d-block w-100" style="height: 250px;"alt="...">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Third slide label</h5>
-                        <p>Some representative placeholder content for the third slide.</p>
+                        <h5 style="text-align: center">Ultimo Banner</h5>
+                        <p style="text-align: center" >Algunos contenidos de marcador de posición representativos para la tercera diapositiva.</p>
                     </div>
                 </div>
             </div>
