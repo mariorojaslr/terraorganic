@@ -351,8 +351,13 @@ return [
                 ],
                 [
                     'text' => 'Videos',
-                    'url'  => 'socios',
+                    'url'  => 'videos',
                     'icon' => 'fas fa-fw fa-video',
+                ],
+                [
+                    'text' => 'Vista Previa',
+                    'url'  => 'videos',
+                    'icon' => 'fas fa-fw fa-user',
                 ],
                 // [
                 //     'text'    => 'level_one',

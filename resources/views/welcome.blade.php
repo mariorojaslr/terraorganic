@@ -458,7 +458,7 @@
 
                         <li class="nav-item">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Quines Somos</a>
+                            <a class="nav-link active" href="{{ route('quienessomos')}}">Quines Somos</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active" href="#">Contacto</a>

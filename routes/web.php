@@ -32,3 +32,7 @@ Route::middleware([
     Route::resource('ivas','App\Http\Controllers\IvasController');
     Route::resource('usuarios','App\Http\Controllers\UsuariosController');
 });
+
+
+Route::get('/videos', function () { return view('socios.videos.frontvideos'); })->name('videos');
+Route::get('/quienessomos', function () { return view('frontquienessomos'); })->name('quienessomos');
